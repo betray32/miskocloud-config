@@ -6,6 +6,6 @@ zuul:
     connect-timeout-millis: 20000
     socket-timeout-millis: 20000
     routes:
-      login: # Service to create as sample
+      scb-login: # Service to create as sample
         path: /login/** #path that will be intercepted
         url: http://localhost:8081
