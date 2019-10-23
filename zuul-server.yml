@@ -9,4 +9,4 @@ zuul:
     routes:
       scb-login: # Service to create as sample
         path: /login/** #path that will be intercepted
-        service-id: scb-login
+        url: http://localhost:8081/scb-login/
